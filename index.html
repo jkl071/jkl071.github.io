@@ -1,31 +1,15 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <title>My experiment</title>
-        <script src="/jspsych/jspsych.js"></script>
-        <script src="/jspsych/poldrack-plugins/jspsych-poldrack-text.js"></script>
-    </head>
-    <body></body>
-    <script>
+  <head>
+    <title>My Homepage</title>
+  </head>
 
-    var end_block = {
-	type: 'text',
-	data: {
-		trial_id: "end",
-	},
-	timing_response: 180000,
-	text: '<div class = centerbox><p class = center-block-text>Thanks for completing this task!</p><p class = center-block-text>Press <i>enter</i> to continue.</p></div>',
-	cont_key: [13],
-	timing_post_trial: 0,
-	on_finish: function(){
-		assessPerformance()
-		evalAttentionChecks()
-    }
-	};
 
-    jsPsych.init({
-        timeline: [end_block]
-    })
+  <body>
+    <h1>My homepage!</h1>
+    
+    <h2>
+        ;)
+    </h2>
 
-    </script>
+  </body>
 </html>
