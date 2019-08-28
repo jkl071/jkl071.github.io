@@ -15,12 +15,7 @@
 
 <!-- Slide Show -->
 <section>
-  <img src="/jkl071.github.io/img/github_pic_cover.jpg"
-  style="width:100%">
-  <img src="/jkl071.github.io/img/github_pic_cover.jpg"
-  style="width:100%">
-  <img src="/jkl071.github.io/img/github_pic_cover.jpg"
-  style="width:100%">
+  <img src="img/github_pic_cover.jpg" alt="hi" class="inline"/>
 </section>
 
 <!-- Band Description -->
@@ -63,20 +58,17 @@
 
 <script>
 // Automatic Slideshow - change image every 3 seconds
+// this part is javascript
 var myIndex = 0;
-carousel();
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}
-  x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 3000);
+
+function myFuntion(x) {
+  return x
+  
 }
+  
+myFunction();
+  
 </script>
 
 </body>
