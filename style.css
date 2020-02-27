@@ -9,3 +9,15 @@
  background-color: red;
  text-align: center;
 }
+
+.bigbox {
+width:100%;
+margin: auto; 
+min-height: 100%;
+position:absolute;
+top:0%;
+left:0%;
+margin-right:0%;
+background-color: green;
+text-align: center;
+}
