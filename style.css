@@ -35,11 +35,11 @@ text-align: center;
 }
 
 .picture_box {
- width: auto;
- height: auto;
+ width: 40%;
+ height: 40%;
  position:absolute;
  top:50%;
- left:70%;
+ left:80%;
  transform: translate(-50%,-50%);
  margin-right:0%;
  background-color: none;
@@ -52,7 +52,7 @@ text-align: center;
  height: 50%;
  position:absolute;
  top:50%;
- left:20%;
+ left:30%;
  transform: translate(-50%,-50%);
  margin-right:0%;
  background-color: none;
